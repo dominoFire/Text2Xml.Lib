@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Text file to XML converter</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/dominoFire/Text2Xml.Lib</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

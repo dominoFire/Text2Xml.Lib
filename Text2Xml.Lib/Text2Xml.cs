@@ -7,7 +7,7 @@ namespace Text2Xml
     /// <summary>
     /// Represents an object that can transform a text file into a XML file
     /// </summary>
-    public class Text2Xml
+    public class Text2XmlConverter
     {
         /// <summary>
         /// Indicates whether to include empty elements, defaults to false
@@ -62,7 +62,7 @@ namespace Text2Xml
         /// <summary>
         /// Public constructor
         /// </summary>
-        public Text2Xml() { }
+        public Text2XmlConverter() { }
 
         /// <summary>
         /// Reads text data from stream, produces an XML
@@ -126,6 +126,8 @@ namespace Text2Xml
                     rootNode.AppendChild(rowNode);
                     lastRowNode = rowNode;
                 }
+
+                first = false;
             }
             if (this.IncludeLastElementRow && lastRowNode != null)
                 rootNode.RemoveChild(lastRowNode);
