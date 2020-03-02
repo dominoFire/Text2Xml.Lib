@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28712.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Text2Xml.Lib", "Text2Xml.Lib\Text2Xml.Lib.csproj", "{11F84DD5-3F67-48BF-BC48-B3CEC60AAF4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text2Xml.Lib.Test", "Text2Xml.Lib.Test\Text2Xml.Lib.Test.csproj", "{C7D5A1F9-FF78-4DD2-8310-E398A695A1FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{11F84DD5-3F67-48BF-BC48-B3CEC60AAF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F84DD5-3F67-48BF-BC48-B3CEC60AAF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F84DD5-3F67-48BF-BC48-B3CEC60AAF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D5A1F9-FF78-4DD2-8310-E398A695A1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D5A1F9-FF78-4DD2-8310-E398A695A1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D5A1F9-FF78-4DD2-8310-E398A695A1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D5A1F9-FF78-4DD2-8310-E398A695A1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

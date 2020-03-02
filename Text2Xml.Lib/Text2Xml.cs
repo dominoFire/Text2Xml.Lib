@@ -40,7 +40,7 @@ namespace Text2Xml
         public string XmlTagRoot { get; set; } = "InvoiceOrder";
 
         /// <summary>
-        /// Name of the tag of the selemtn
+        /// Name of the tag of the element
         /// </summary>
         public string XmlTagToken { get; set; } = "Token";
 
@@ -94,13 +94,13 @@ namespace Text2Xml
                     lastLine = true;
                 }
 
-                if(first && this.IncludeFirstLine)
+                if(first)
                 {
-                    include = false;
+                    include = this.IncludeFirstLine;
                 }
-                else if (lastLine && this.IncludeLastLine)
+                else if (lastLine)
                 {
-                    include = false;
+                    include = this.IncludeLastLine;
                 }
                 else if (string.IsNullOrEmpty(lin))
                 {
