@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.1.3</Version>
+    <Version>1.1.4</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Text file to XML converter</Description>
     <RepositoryUrl>https://github.com/dominoFire/Text2Xml.Lib</RepositoryUrl>
-    <PackageIconUrl>https://i.imgur.com/4APU462.png</PackageIconUrl>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
